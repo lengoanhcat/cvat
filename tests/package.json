@@ -7,7 +7,7 @@
   "dependencies": {
     "@cypress/code-coverage": "^3.9.10",
     "archiver": "^5.3.0",
-    "cy-verify-downloads": "^0.0.5",
+    "cy-verify-downloads": "^0.1.15",
     "cypress": "^12.5.1",
     "cypress-file-upload": "^5.0.8",
     "cypress-localstorage-commands": "^1.7.0",
