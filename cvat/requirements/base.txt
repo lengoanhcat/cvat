@@ -169,7 +169,7 @@ google-resumable-media==2.5.0
     # via google-cloud-storage
 googleapis-common-protos==1.59.0
     # via google-api-core
-grpcio==1.54.2
+grpcio==1.54.3
     # via
     #   tensorboard
     #   tensorflow
