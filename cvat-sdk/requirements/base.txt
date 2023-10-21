@@ -7,3 +7,5 @@ platformdirs >= 2.1.0
 tqdm >= 4.64.0
 tuspy == 0.2.5 # have it pinned, because SDK has lots of patched TUS code
 typing_extensions >= 4.2.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
