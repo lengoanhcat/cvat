@@ -122,7 +122,7 @@ djangorestframework==3.14.0
     #   -r cvat/requirements/base.in
     #   dj-rest-auth
     #   drf-spectacular
-dnspython==2.2.0
+dnspython==2.6.0rc1
     # via -r cvat/requirements/base.in
 drf-spectacular==0.26.2
     # via -r cvat/requirements/base.in
