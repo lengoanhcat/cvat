@@ -234,7 +234,7 @@ opt-einsum==3.3.0
     # via tensorflow
 orderedmultidict==1.0.1
     # via furl
-orjson==3.8.13
+orjson==3.9.15
     # via datumaro
 packaging==23.1
     # via
