@@ -178,7 +178,7 @@ h5py==3.6.0
     #   -r cvat/requirements/base.in
     #   datumaro
     #   tensorflow
-idna==3.4
+idna==3.7
     # via requests
 importlib-resources==5.12.0
     # via limits
