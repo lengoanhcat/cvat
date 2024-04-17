@@ -196,7 +196,7 @@ jmespath==0.10.0
     #   botocore
 jsonschema==4.17.3
     # via drf-spectacular
-keras==2.11.0
+keras==2.13.1rc0
     # via tensorflow
 kiwisolver==1.4.4
     # via matplotlib
