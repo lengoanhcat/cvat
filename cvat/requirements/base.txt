@@ -370,7 +370,7 @@ six==1.16.0
     #   tensorflow
 smmap==5.0.0
     # via gitdb
-sqlparse==0.4.2
+sqlparse==0.5.0
     # via
     #   -r cvat/requirements/base.in
     #   django
