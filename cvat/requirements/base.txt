@@ -37,7 +37,7 @@ botocore==1.20.112
     #   s3transfer
 cachetools==5.3.0
     # via google-auth
-certifi==2023.5.7
+certifi==2023.7.22
     # via
     #   clickhouse-connect
     #   msrest
@@ -60,7 +60,7 @@ coreschema==0.0.4
     # via coreapi
 croniter==1.3.15
     # via rq-scheduler
-cryptography==41.0.0
+cryptography==42.0.4
     # via
     #   azure-storage-blob
     #   pyjwt
@@ -95,7 +95,7 @@ django==4.2.1
     #   django-sendfile2
     #   djangorestframework
     #   drf-spectacular
-django-allauth==0.52.0
+django-allauth==0.54.0
     # via
     #   -r cvat/requirements/base.in
     #   dj-rest-auth
@@ -122,7 +122,7 @@ djangorestframework==3.14.0
     #   -r cvat/requirements/base.in
     #   dj-rest-auth
     #   drf-spectacular
-dnspython==2.2.0
+dnspython==2.6.1
     # via -r cvat/requirements/base.in
 drf-spectacular==0.26.2
     # via -r cvat/requirements/base.in
@@ -142,7 +142,7 @@ gast==0.4.0
     # via tensorflow
 gitdb==4.0.10
     # via gitpython
-gitpython==3.1.30
+gitpython==3.1.41
     # via -r cvat/requirements/base.in
 google-api-core==2.11.0
     # via
@@ -169,7 +169,7 @@ google-resumable-media==2.5.0
     # via google-cloud-storage
 googleapis-common-protos==1.59.0
     # via google-api-core
-grpcio==1.54.2
+grpcio==1.54.3
     # via
     #   tensorboard
     #   tensorflow
@@ -178,7 +178,7 @@ h5py==3.6.0
     #   -r cvat/requirements/base.in
     #   datumaro
     #   tensorflow
-idna==3.4
+idna==3.7
     # via requests
 importlib-resources==5.12.0
     # via limits
@@ -188,7 +188,7 @@ isodate==0.6.1
     # via msrest
 itypes==1.2.0
     # via coreapi
-jinja2==3.1.2
+jinja2==3.1.3
     # via coreschema
 jmespath==0.10.0
     # via
@@ -196,7 +196,7 @@ jmespath==0.10.0
     #   botocore
 jsonschema==4.17.3
     # via drf-spectacular
-keras==2.11.0
+keras==2.13.1rc0
     # via tensorflow
 kiwisolver==1.4.4
     # via matplotlib
@@ -234,7 +234,7 @@ opt-einsum==3.3.0
     # via tensorflow
 orderedmultidict==1.0.1
     # via furl
-orjson==3.8.13
+orjson==3.9.15
     # via datumaro
 packaging==23.1
     # via
@@ -273,7 +273,7 @@ pycocotools==2.0.6
     # via datumaro
 pycparser==2.21
     # via cffi
-pygments==2.7.4
+pygments==2.15.0
     # via -r cvat/requirements/base.in
 pyjwt[crypto]==2.7.0
     # via django-allauth
@@ -316,7 +316,7 @@ redis==4.5.4
     #   -r cvat/requirements/base.in
     #   django-rq
     #   rq
-requests==2.26.0
+requests==2.31.0
     # via
     #   -r cvat/requirements/base.in
     #   azure-core
@@ -370,7 +370,7 @@ six==1.16.0
     #   tensorflow
 smmap==5.0.0
     # via gitdb
-sqlparse==0.4.2
+sqlparse==0.5.0
     # via
     #   -r cvat/requirements/base.in
     #   django
@@ -403,7 +403,7 @@ uritemplate==4.1.1
     # via
     #   coreapi
     #   drf-spectacular
-urllib3==1.26.16
+urllib3==1.26.18
     # via
     #   -r cvat/requirements/base.in
     #   botocore
@@ -431,3 +431,4 @@ setuptools==65.5.1
     #   limits
     #   tensorboard
     #   tensorflow
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
