@@ -8,7 +8,7 @@
 -r base.txt
 --no-binary av
 
-anyio==3.6.2
+anyio==4.4.0
     # via watchfiles
 h11==0.14.0
     # via uvicorn
