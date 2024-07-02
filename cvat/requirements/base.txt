@@ -95,7 +95,7 @@ django==4.2.1
     #   django-sendfile2
     #   djangorestframework
     #   drf-spectacular
-django-allauth==0.52.0
+django-allauth==0.63.3
     # via
     #   -r cvat/requirements/base.in
     #   dj-rest-auth
