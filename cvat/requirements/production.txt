@@ -30,3 +30,4 @@ coverage==7.2.3
     # via -r cvat/requirements/production.in
 
 # The following packages are considered to be unsafe in a requirements file:
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
