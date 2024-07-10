@@ -4,3 +4,4 @@ black>=22.1.0
 inflection >= 0.5.1
 isort>=5.10.1
 ruamel.yaml>=0.17.21
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
