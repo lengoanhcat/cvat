@@ -425,7 +425,7 @@ zstandard==0.21.0
     # via clickhouse-connect
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==65.5.1
+setuptools==70.0.0
     # via
     #   -r cvat/requirements/base.in
     #   limits
