@@ -80,7 +80,7 @@ dj-pagination==2.5.0
     # via -r cvat/requirements/base.in
 dj-rest-auth[with_social]==2.2.7
     # via -r cvat/requirements/base.in
-django==4.2.1
+django==4.2.21
     # via
     #   -r cvat/requirements/base.in
     #   dj-rest-auth
@@ -289,7 +289,7 @@ python-dateutil==2.8.2
     #   croniter
     #   matplotlib
     #   pandas
-python-ldap==3.4.3
+python-ldap==3.4.5
     # via
     #   -r cvat/requirements/base.in
     #   django-auth-ldap
