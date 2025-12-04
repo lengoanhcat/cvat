@@ -80,7 +80,7 @@ dj-pagination==2.5.0
     # via -r cvat/requirements/base.in
 dj-rest-auth[with_social]==2.2.7
     # via -r cvat/requirements/base.in
-django==4.2.1
+django==4.2.27
     # via
     #   -r cvat/requirements/base.in
     #   dj-rest-auth
@@ -370,7 +370,7 @@ six==1.16.0
     #   tensorflow
 smmap==5.0.0
     # via gitdb
-sqlparse==0.4.2
+sqlparse==0.5.4
     # via
     #   -r cvat/requirements/base.in
     #   django
