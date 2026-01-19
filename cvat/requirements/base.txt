@@ -23,7 +23,7 @@ attrs==21.4.0
     #   -r cvat/requirements/base.in
     #   datumaro
     #   jsonschema
-azure-core==1.26.4
+azure-core==1.38.0
     # via
     #   azure-storage-blob
     #   msrest
@@ -260,7 +260,7 @@ psutil==5.9.4
     # via -r cvat/requirements/base.in
 psycopg2-binary==2.9.5
     # via -r cvat/requirements/base.in
-pyasn1==0.5.0
+pyasn1==0.6.2
     # via
     #   pyasn1-modules
     #   python-ldap
@@ -403,7 +403,7 @@ uritemplate==4.1.1
     # via
     #   coreapi
     #   drf-spectacular
-urllib3==1.26.16
+urllib3==2.6.3
     # via
     #   -r cvat/requirements/base.in
     #   botocore
