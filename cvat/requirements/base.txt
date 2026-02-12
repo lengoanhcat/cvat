@@ -60,7 +60,7 @@ coreschema==0.0.4
     # via coreapi
 croniter==1.3.15
     # via rq-scheduler
-cryptography==41.0.0
+cryptography==46.0.5
     # via
     #   azure-storage-blob
     #   pyjwt
@@ -196,7 +196,7 @@ jmespath==0.10.0
     #   botocore
 jsonschema==4.17.3
     # via drf-spectacular
-keras==2.11.0
+keras==3.13.2
     # via tensorflow
 kiwisolver==1.4.4
     # via matplotlib
